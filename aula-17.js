@@ -1,0 +1,20 @@
+function estado(estado) {
+  switch (estado) {
+    case "SP":
+    case "sp":
+      console.log("São Paulo");
+      break;
+    case "RJ":
+      console.log("Rio de Janeiro");
+      break;
+    case "PE":
+      console.log("Pernambuco");
+      break;
+
+    default:
+      console.log("estado Não encontrado");
+      break;
+  }
+}
+
+console.log(estado("sp"));
