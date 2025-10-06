@@ -1,7 +1,7 @@
 //função recursiva
 
 const fatorial = (valor) => {
-  //     Aqui você define quando a recursão deve parar.
+  // Aqui você define quando a recursão deve parar.
   // Se não tivesse isso, a função chamaria a si mesma
   // infinitamente → estouro de pilha (stack overflow).
   if (valor === 0 || valor === 1) {
